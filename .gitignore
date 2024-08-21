@@ -1,0 +1,11 @@
+# Archivos y carpetas específicos de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.cache
+*.log
+*.csproj.user
+*.csproj.suo
+*.vscode/
