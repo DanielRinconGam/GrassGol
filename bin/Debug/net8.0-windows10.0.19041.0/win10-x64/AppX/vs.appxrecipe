@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-08-21T02:20:55.861</Modified>
+      <Modified>2024-08-22T00:02:30.928</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\GrassGol.dll">
       <PackagePath>GrassGol.dll</PackagePath>
-      <Modified>2024-08-21T02:20:54.935</Modified>
+      <Modified>2024-08-22T00:02:28.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>GrassGol.exe</PackagePath>
-      <Modified>2024-08-21T02:20:54.969</Modified>
+      <Modified>2024-08-22T00:02:28.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

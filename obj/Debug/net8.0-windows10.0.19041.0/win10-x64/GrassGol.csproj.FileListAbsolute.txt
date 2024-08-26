@@ -175,3 +175,4 @@ C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\ne
 C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GrassGol.sourcelink.json
