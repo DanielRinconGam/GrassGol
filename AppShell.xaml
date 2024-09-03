@@ -5,11 +5,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:GrassGol"
     Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False"
     Title="GrassGol">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <ShellContent Route="login" ContentTemplate="{DataTemplate local:LoginPage}" />
+    <ShellContent Route="register" ContentTemplate="{DataTemplate local:RegisterUserPage}" />
+    <ShellContent Route="paraBase" ContentTemplate="{DataTemplate local:ParaBase}" />
 
 </Shell>

@@ -5,10 +5,39 @@
              x:Class="GrassGol.App">
     <Application.Resources>
         <ResourceDictionary>
+            
+            <!-- Estilos Generales -->
+            
+            <Style x:Key="GlobalTitleLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="{x:StaticResource PrimaryColor}" />
+                <Setter Property="FontFamily" Value="FondInter" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+            </Style>
+
+            <Style x:Key="GlobalInfoLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="{x:StaticResource TextColorLight}" />
+                <Setter Property="FontFamily" Value="FondInter" />
+                <Setter Property="FontAttributes" Value="None"/>
+                <Setter Property="FontSize" Value="10"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+            </Style>
+            
+            <!-- Degradado -->
+            
+            <LinearGradientBrush x:Key="GlobalGradientBackground" StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="{StaticResource PrimaryColor}" Offset="0.0" />
+                <GradientStop Color="#F4FBF2" Offset="1.0" />
+            </LinearGradientBrush>
+
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            
+            
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>
