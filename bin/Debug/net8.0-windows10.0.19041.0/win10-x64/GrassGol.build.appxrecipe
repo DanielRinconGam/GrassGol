@@ -58,6 +58,9 @@
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Inter.ttc">
       <PackagePath>Inter.ttc</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Inter.ttf">
+      <PackagePath>Inter.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
@@ -205,17 +208,8 @@
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\flyout_icon.scale-100.png">
+      <PackagePath>flyout_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documentos\Proyectos\Proyectos Net\GrassGol\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_icon.scale-100.png">
       <PackagePath>user_icon.scale-100.png</PackagePath>

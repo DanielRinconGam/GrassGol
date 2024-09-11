@@ -5,35 +5,44 @@
              x:Class="GrassGol.App">
     <Application.Resources>
         <ResourceDictionary>
+
+            <!-- ***** Estilos generales Label ***** -->
             
-            <!-- Estilos Generales -->
-            
+            <!-- Titulo -->
             <Style x:Key="GlobalTitleLabel" TargetType="Label">
-                <Setter Property="TextColor" Value="{x:StaticResource PrimaryColor}" />
-                <Setter Property="FontFamily" Value="FondInter" />
+                <Setter Property="TextColor" Value="{x:StaticResource PrimaryColor}"/>
+                <Setter Property="FontFamily" Value="FondInter"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="FontSize" Value="24"/>
                 <Setter Property="HorizontalOptions" Value="Start"/>
             </Style>
 
+            <!-- Texto -->
             <Style x:Key="GlobalInfoLabel" TargetType="Label">
-                <Setter Property="TextColor" Value="{x:StaticResource TextColorLight}" />
-                <Setter Property="FontFamily" Value="FondInter" />
+                <Setter Property="TextColor" Value="{x:StaticResource TextColorLight}"/>
+                <Setter Property="FontFamily" Value="FondInter"/>
                 <Setter Property="FontAttributes" Value="None"/>
                 <Setter Property="FontSize" Value="10"/>
                 <Setter Property="HorizontalOptions" Value="Start"/>
             </Style>
-            
-            <!-- Degradado -->
-            
+
+            <!-- ***** Estilos generales Degradado ***** -->
+
+            <!-- Degradado -->  
             <LinearGradientBrush x:Key="GlobalGradientBackground" StartPoint="0,0" EndPoint="0,1">
                 <GradientStop Color="{StaticResource PrimaryColor}" Offset="0.0" />
                 <GradientStop Color="#F4FBF2" Offset="1.0" />
             </LinearGradientBrush>
 
+            <!-- Diccionarios -->
             <ResourceDictionary.MergedDictionaries>
+                <!-- Dicionarios generales -->
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+
+                <!-- Dicionarios personalizados -->
+                <ResourceDictionary Source="Resources/Styles/StyleRadioButton.xaml" />
+                <ResourceDictionary Source="Resources/Styles/StyleButton.xaml" />
             </ResourceDictionary.MergedDictionaries>
             
             

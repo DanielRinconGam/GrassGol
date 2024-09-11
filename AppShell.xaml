@@ -3,14 +3,19 @@
     x:Class="GrassGol.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pagesBusiness="clr-namespace:GrassGol.Pages.Business"
     xmlns:local="clr-namespace:GrassGol"
     Shell.FlyoutBehavior="Disabled"
     Shell.NavBarIsVisible="False"
     Title="GrassGol">
 
-
+    <!-- Páginas de Principales -->
     <ShellContent Route="login" ContentTemplate="{DataTemplate local:LoginPage}" />
     <ShellContent Route="register" ContentTemplate="{DataTemplate local:RegisterUserPage}" />
+
+    <!-- Páginas de Empresa -->
+    <ShellContent Route="businessHome" ContentTemplate="{DataTemplate pagesBusiness:BusinessHome}"/>
+
     <ShellContent Route="paraBase" ContentTemplate="{DataTemplate local:ParaBase}" />
 
 </Shell>
