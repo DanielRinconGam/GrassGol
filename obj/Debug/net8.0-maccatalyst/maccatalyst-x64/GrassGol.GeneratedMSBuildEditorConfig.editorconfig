@@ -52,12 +52,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.Pages.Business.Bu
 build_metadata.AdditionalFiles.TargetPath = Pages\Business\BusinessHome.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Business\BusinessHome.xaml
 
-[C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/ParaBase.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.ParaBase.xaml
-build_metadata.AdditionalFiles.TargetPath = ParaBase.xaml
-build_metadata.AdditionalFiles.RelativePath = ParaBase.xaml
-
 [C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/RegisterUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.RegisterUserPage.xaml

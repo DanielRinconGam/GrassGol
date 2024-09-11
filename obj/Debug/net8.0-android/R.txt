@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 int anim abc_fade_in 0x7f010000
 int anim abc_fade_out 0x7f010001
 int anim abc_grow_fade_in_from_bottom 0x7f010002
@@ -7092,3 +7093,6 @@ int[] styleable include { 0x7f030132 }
 int styleable include_constraintSet 0
 int xml image_share_filepaths 0x7f110000
 int xml microsoft_maui_essentials_fileprovider_file_paths 0x7f110001
+=======
+int raw aboutassets 0x7f010000
+>>>>>>> origin/main
