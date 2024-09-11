@@ -2,7 +2,6 @@ namespace GrassGol;
 
 using GrassGol.Connections;
 using System.Diagnostics;
-using CoreBluetooth;
 
 
 public partial class LoginPage : ContentPage
@@ -40,11 +39,11 @@ public partial class LoginPage : ContentPage
 
         if (isConnected)
         {
-            await DisplayAlert("ConexiÃ³n Exitosa", "Se ha conectado a la base de datos con Ã©xito.", "OK");
+            await DisplayAlert("Conexión Exitosa", "Se ha conectado a la base de datos con exito.", "OK");
         }
         else
         {
-            await DisplayAlert("Error de ConexiÃ³n", "No se pudo conectar a la base de datos.", "OK");
+            await DisplayAlert("Error de Conexión", "No se pudo conectar a la base de datos.", "OK");
         }
     }
 

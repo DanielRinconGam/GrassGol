@@ -16,7 +16,5 @@
     <!-- Páginas de Empresa -->
     <ShellContent Route="businessHome" ContentTemplate="{DataTemplate pagesBusiness:BusinessHome}"/>
 
-    <ShellContent Route="paraBase" ContentTemplate="{DataTemplate local:ParaBase}" />
-
 
 </Shell>
