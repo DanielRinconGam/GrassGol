@@ -3,9 +3,49 @@
 *.suo
 *.user
 *.userosscache
-*.suo
 *.cache
 *.log
 *.csproj.user
 *.csproj.suo
 *.vscode/
+
+# Archivos específicos generados durante la compilación
+obj/
+bin/
+
+# Archivos específicos generados por .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+*.config
+*.log
+
+# Archivos específicos de la configuración de la plataforma
+*.dbmdl
+*.bak
+*.backup
+*.log
+*.tmp
+
+# Archivos y carpetas específicas de la plataforma
+*.dmp
+*.swp
+*.swo
+
+# Otros archivos y carpetas que suelen ser ignorados
+*.tgz
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos específicos de entornos de desarrollo
+*.sublime-workspace
+*.sublime-project
+*.idea/
