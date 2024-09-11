@@ -24,11 +24,15 @@ androidgeneratejnimarshalmethods=false
 os=unix
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
+<<<<<<< HEAD
+_nugetassetstimestamp=638602803737578206
+=======
 <<<<<<< Updated upstream
 _nugetassetstimestamp=638598664030225999
 =======
 _nugetassetstimestamp=638615647796996149
 >>>>>>> Stashed changes
+>>>>>>> origin/main
 typemapkind=strings-asm
 androidmanifestplaceholders=
 projectfullpath=/users/apple/visualpro/grassgol/grassgol.csproj

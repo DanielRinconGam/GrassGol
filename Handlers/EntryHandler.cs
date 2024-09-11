@@ -8,6 +8,5 @@ namespace GrassGol.Handlers
 {
     class EntryHandler : Entry
     {
-
     }
 }

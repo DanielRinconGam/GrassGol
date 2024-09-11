@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrassGol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3e949ad193b541980b8d36685112003da0aad408")]
+=======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1bbe548ad69d3a9354fc98b6d20156f728ea0f96")]
+>>>>>>> origin/main
 [assembly: System.Reflection.AssemblyProductAttribute("GrassGol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrassGol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

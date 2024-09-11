@@ -1,5 +1,7 @@
-﻿using Microsoft.Maui.Controls;
+﻿using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 using Microsoft.Maui.Handlers;
+using Microsoft.Maui.Media;
 
 
 namespace GrassGol
@@ -12,13 +14,18 @@ namespace GrassGol
             InitializeComponent();
 
             MainPage = new AppShell();
-            {
-               // WidthRequest = 700,
-               //HeightRequest = 450
-            };
+
+            //Personalizacion multiplataforma
+            PersonalizeEntry();
 
 
-            // Personalizacion Entrys
+
+        }
+
+        // Personalizacion Entrys para Windows
+        public void PersonalizeEntry()
+        {
+
             Microsoft.Maui.Handlers.EntryHandler.Mapper.AppendToMapping(nameof(EntryHandler), (handler, view) =>
             {
 #if WINDOWS
@@ -61,13 +68,8 @@ namespace GrassGol
 
 #endif
             });
-
-
-
         }
 
-
     }
-
 
 }

@@ -36,11 +36,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/ParaBase.xaml]
+[C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/Pages/Business/BusinessFlyout.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.ParaBase.xaml
-build_metadata.AdditionalFiles.TargetPath = ParaBase.xaml
-build_metadata.AdditionalFiles.RelativePath = ParaBase.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.Pages.Business.BusinessFlyout.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Business\BusinessFlyout.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Business\BusinessFlyout.xaml
+
+[C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/Pages/Business/BusinessHome.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.Pages.Business.BusinessHome.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Business\BusinessHome.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Business\BusinessHome.xaml
 
 [C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/RegisterUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -53,6 +59,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/Resources/Styles/StyleButton.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.Resources.Styles.StyleButton.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\StyleButton.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\StyleButton.xaml
+
+[C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/Resources/Styles/StyleRadioButton.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GrassGol.Resources.Styles.StyleRadioButton.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\StyleRadioButton.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\StyleRadioButton.xaml
 
 [C:/Users/danie/OneDrive/Documentos/Proyectos/Proyectos Net/GrassGol/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

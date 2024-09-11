@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:CustomControl ="clr-namespace:GrassGol.Handlers"
              x:Class="GrassGol.LoginPage"
-             BackgroundColor="#F4FBF2">
-    
+             BackgroundColor="#F4FBF2"
+             WidthRequest="700"
+             HeightRequest="450">
 
     <Grid ColumnDefinitions="*,*">
 
@@ -12,23 +13,25 @@
         <Grid Grid.Column="0" Background="{StaticResource GlobalGradientBackground}">
             <Button 
                 Text="Para Base"
-                FontSize="20"     
+                FontSize="10"     
                 TextColor="Black"
                 FontAttributes="Bold"
                 Background="White"
                 CornerRadius="10"
-                WidthRequest="300"
-                HeightRequest="50"
-               Clicked="Button_Clicked"/>
+                WidthRequest="100"
+                HeightRequest="44"
+                Clicked="Button_Clicked"
+                VerticalOptions="End"/>
         </Grid>
 
 
         <Grid Grid.Column="1" RowDefinitions="*,*,*">
 
 
-            <StackLayout Grid.Row="0" Margin="24,47,24,0">
+            <StackLayout Grid.Row="0" Margin="24,35,24,0">
 
                 <Label Style="{x:StaticResource GlobalTitleLabel}" Text="Inicio de sesión" />
+
                 <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Hola, ingrese sus datos para iniciar sesión en su cuenta." />
 
             </StackLayout>
@@ -63,7 +66,7 @@
             </VerticalStackLayout>
 
 
-            <VerticalStackLayout Grid.Row="2"  Margin="24,0,24,47" VerticalOptions="End" Spacing="2">
+            <VerticalStackLayout Grid.Row="2"  Margin="24,0,24,35" VerticalOptions="End" Spacing="2">
 
                 <Button 
                     Text="Ingresar"
@@ -73,7 +76,8 @@
                     Background="{x:StaticResource PrimaryColor}"
                     CornerRadius="20"
                     WidthRequest="200"
-                    HeightRequest="48"/>
+                    HeightRequest="48"
+                    Clicked="LoginClicked"/>
 
                 <HorizontalStackLayout HorizontalOptions="Center" Spacing="1">
 

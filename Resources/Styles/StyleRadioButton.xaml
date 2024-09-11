@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Control Template para RadioButton -->
+    <ControlTemplate x:Key="RadioButtonTemplate">
+        <Grid ColumnDefinitions="Auto,Auto">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CheckedStates">
+                        <VisualState x:Name="Checked">
+                            <VisualState.Setters>
+                                <Setter TargetName="check" Property="Opacity" Value="1"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Unchecked">
+                            <VisualState.Setters>
+                                <Setter TargetName="check" Property="Opacity" Value="0"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </VisualStateManager.VisualStateGroups>
+            <Grid Grid.Column="0" Margin="0,0,5,0">
+                <Ellipse Fill="#D9D9D9" WidthRequest="16" HeightRequest="16" HorizontalOptions="Center" 
+                         VerticalOptions="Center"/>
+                <Ellipse x:Name="check" Fill="{x:DynamicResource PrimaryColor}" WidthRequest="12.8" 
+                         HeightRequest="12.8" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </Grid>
+            <Label Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center"
+                   Text="{TemplateBinding Content}"
+                   Style="{StaticResource GlobalRadioLabelStyle}"/>
+        </Grid>
+    </ControlTemplate>
+
+    <!-- Estilo global para Labels -->
+    <Style x:Key="GlobalRadioLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{x:StaticResource TextColorLight}"/>
+        <Setter Property="FontFamily" Value="FondInter"/>
+        <Setter Property="FontAttributes" Value="None"/>
+        <Setter Property="FontSize" Value="10"/>
+    </Style>
+
+    <!-- Estilo para RadioButtons -->
+    <Style x:Key="GlobalRadioButtonStyle" TargetType="RadioButton">
+        <Setter Property="ControlTemplate" Value="{StaticResource RadioButtonTemplate}" />
+    </Style>
+
+</ResourceDictionary>
