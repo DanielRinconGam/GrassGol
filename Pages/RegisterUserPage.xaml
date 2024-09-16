@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:CustomControl ="clr-namespace:GrassGol.Handlers"
-             x:Class="GrassGol.RegisterUserPage"
+             x:Class="GrassGol.Pages.RegisterUserPage"
              BackgroundColor="#F4FBF2"
              WidthRequest="700"
              HeightRequest="450">
@@ -21,11 +21,13 @@
             </StackLayout>
 
             <HorizontalStackLayout Grid.Row="1" Margin="24,20,24,20" Spacing="20" HeightRequest="16">
-                <RadioButton Style="{x:StaticResource GlobalRadioButtonStyle}" GroupName="AccountType" 
-                 Content="Usuario" Value="cuentaPersonal" IsChecked="True" CheckedChanged="RadioButtonChecked"/>
+                <RadioButton Style="{x:StaticResource GlobalRadioButtonStyle}" x:Name="radioUser" 
+                             GroupName="AccountType" Content="Usuario" Value="cuentaPersonal" 
+                             IsChecked="True"/>
 
-                <RadioButton Style="{x:StaticResource GlobalRadioButtonStyle}" GroupName="AccountType" 
-                 Content="Empresa" Value="cuentaEmpresa" IsChecked="False" CheckedChanged="RadioButtonChecked"/>
+                <RadioButton Style="{x:StaticResource GlobalRadioButtonStyle}" x:Name="radioEstablishment" 
+                             GroupName="AccountType" Content="Establecimiento" Value="cuentaEmpresa" 
+                             IsChecked="False"/>
             </HorizontalStackLayout>
 
 
@@ -104,7 +106,8 @@
                     Background="{x:StaticResource PrimaryColor}"
                     CornerRadius="20"
                     WidthRequest="200"
-                    HeightRequest="48"/>
+                    HeightRequest="48"
+                    Clicked="RegisterClicked"/>
 
                 <HorizontalStackLayout HorizontalOptions="Center" Spacing="1">
 

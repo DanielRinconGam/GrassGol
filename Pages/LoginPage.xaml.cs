@@ -1,4 +1,4 @@
-namespace GrassGol;
+namespace GrassGol.Pages;
 
 using GrassGol.Connections;
 using System.Diagnostics;
@@ -16,9 +16,7 @@ public partial class LoginPage : ContentPage
 
     private async void RegisterTapped(object sender, TappedEventArgs e)
     {
-        await this.FadeTo(0.8, 200, Easing.CubicIn);
-        await Shell.Current.GoToAsync("///register", true);
-        await this.FadeTo(1, 200, Easing.CubicOut);
+        await Shell.Current.GoToAsync("//register", true);
     }
 
     private async void LoginClicked(object sender, EventArgs e)
