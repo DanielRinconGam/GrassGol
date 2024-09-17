@@ -1,8 +1,6 @@
 namespace GrassGol.Pages;
 
 using GrassGol.Connections;
-using System.Diagnostics;
-
 
 public partial class LoginPage : ContentPage
 {
@@ -21,13 +19,20 @@ public partial class LoginPage : ContentPage
 
     private async void LoginClicked(object sender, EventArgs e)
     {
-        try
+        string email = emailEntry.Text;
+        string pass = PasswordEntry.Text;
+
+        bool isValidUser = await database.ValidateUsers(email, pass);
+
+        if (isValidUser)
         {
+            //await DisplayAlert("Login", "Correo y contraseÃ±a correctos", "OK");
             await Shell.Current.GoToAsync("//businessHome", true);
         }
-        catch (Exception ex)
+        else
         {
-            Console.WriteLine($"Error conexi�n: {ex.Message}");
+            await DisplayAlert("Login", "Correo o contraseÃ±a incorrectos", "OK");
+
         }
     }
 
@@ -37,11 +42,11 @@ public partial class LoginPage : ContentPage
 
         if (isConnected)
         {
-            await DisplayAlert("Conexi�n Exitosa", "Se ha conectado a la base de datos con exito.", "OK");
+            await DisplayAlert("Conexión Exitosa", "Se ha conectado a la base de datos con exito.", "OK");
         }
         else
         {
-            await DisplayAlert("Error de Conexi�n", "No se pudo conectar a la base de datos.", "OK");
+            await DisplayAlert("Error de Conexión", "No se pudo conectar a la base de datos.", "OK");
         }
     }
 
