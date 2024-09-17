@@ -10,11 +10,19 @@
 
         <Image Source="flyout_icon.png" WidthRequest="100" HeightRequest="74"/>
 
-        <Button Style="{x:StaticResource FlyoutButton}"
-                Text="Inicio"/>
+        <Button Style="{x:StaticResource FlyoutButton}" Text="Inicio"/>
 
-        <Button Style="{x:StaticResource FlyoutButton}"
-                Text="Reservas"/>
+        <Button Style="{x:StaticResource FlyoutButton}" Text="Reservas"/>
+
+        <Button Style="{x:StaticResource FlyoutButton}" Text="Canchas"/>
+
+        <Button Style="{x:StaticResource FlyoutButton}" Text="Historial"/>
+
+        <Button Style="{x:StaticResource FlyoutButton}" Text="Facturación"/>
+
+        <Button Style="{x:StaticResource FlyoutButton}" Text="Reportes"/>
+
+        <Button Style="{x:StaticResource FlyoutButton}" Text="Empleados"/>
 
 
     </StackLayout>
