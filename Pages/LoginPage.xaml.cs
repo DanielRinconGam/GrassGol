@@ -2,7 +2,6 @@ namespace GrassGol.Pages;
 
 using GrassGol.Connections;
 
-
 public partial class LoginPage : ContentPage
 {
     private ConexionDB database;
@@ -27,12 +26,13 @@ public partial class LoginPage : ContentPage
 
         if (isValidUser)
         {
-            //await DisplayAlert("Login", "Correo y contraseña correctos", "OK");
+            //await DisplayAlert("Login", "Correo y contraseÃ±a correctos", "OK");
             await Shell.Current.GoToAsync("//businessHome", true);
         }
         else
         {
-            await DisplayAlert("Login", "Correo o contraseña incorrectos", "OK");
+            await DisplayAlert("Login", "Correo o contraseÃ±a incorrectos", "OK");
+
         }
     }
 
@@ -42,11 +42,11 @@ public partial class LoginPage : ContentPage
 
         if (isConnected)
         {
-            await DisplayAlert("Conexi�n Exitosa", "Se ha conectado a la base de datos con exito.", "OK");
+            await DisplayAlert("Conexión Exitosa", "Se ha conectado a la base de datos con exito.", "OK");
         }
         else
         {
-            await DisplayAlert("Error de Conexi�n", "No se pudo conectar a la base de datos.", "OK");
+            await DisplayAlert("Error de Conexión", "No se pudo conectar a la base de datos.", "OK");
         }
     }
 

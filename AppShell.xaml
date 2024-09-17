@@ -16,7 +16,6 @@
     <ShellContent Route="establishment" ContentTemplate="{DataTemplate globalPages:RegisterEstablishmentPage}" />
 
 
-
     <!-- Páginas de Empresa -->
     <ShellContent Route="businessHome" ContentTemplate="{DataTemplate pagesBusiness:BusinessHome}"/>
 
