@@ -11,6 +11,8 @@
         <Setter Property="FontSize" Value="20" />
         <Setter Property="VisualStateManager.VisualStateGroups">
             <Setter.Value>
+           
+
                 <VisualStateGroupList>
                     <VisualStateGroup x:Name="CommonStates">
                         <VisualState x:Name="Normal">
