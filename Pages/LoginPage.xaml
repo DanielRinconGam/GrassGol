@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:CustomControl ="clr-namespace:GrassGol.Handlers"
-             x:Class="GrassGol.LoginPage"
+             x:Class="GrassGol.Pages.LoginPage"
              BackgroundColor="#F4FBF2"
              WidthRequest="700"
              HeightRequest="450">

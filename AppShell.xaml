@@ -4,14 +4,18 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:pagesBusiness="clr-namespace:GrassGol.Pages.Business"
+    xmlns:globalPages="clr-namespace:GrassGol.Pages"
     xmlns:local="clr-namespace:GrassGol"
     Shell.FlyoutBehavior="Disabled"
     Shell.NavBarIsVisible="False"
     Title="GrassGol">
 
     <!-- Páginas de Principales -->
-    <ShellContent Route="login" ContentTemplate="{DataTemplate local:LoginPage}" />
-    <ShellContent Route="register" ContentTemplate="{DataTemplate local:RegisterUserPage}" />
+    <ShellContent Route="login" ContentTemplate="{DataTemplate globalPages:LoginPage}" />
+    <ShellContent Route="register" ContentTemplate="{DataTemplate globalPages:RegisterUserPage}" />
+    <ShellContent Route="establishment" ContentTemplate="{DataTemplate globalPages:RegisterEstablishmentPage}" />
+
+
 
     <!-- Páginas de Empresa -->
     <ShellContent Route="businessHome" ContentTemplate="{DataTemplate pagesBusiness:BusinessHome}"/>

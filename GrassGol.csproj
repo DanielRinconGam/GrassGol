@@ -81,10 +81,13 @@
 		<MauiXaml Update="Pages\Business\BusinessFlyout.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="Pages\RegisterEstablishmentPage.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="ParaBase.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-		<MauiXaml Update="RegisterUserPage.xaml">
+		<MauiXaml Update="Pages\RegisterUserPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 		<MauiXaml Update="Resources\Styles\StyleButton.xaml">

@@ -3,14 +3,185 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pagesBusiness="clr-namespace:GrassGol.Pages.Business"
              x:Class="GrassGol.Pages.Business.BusinessHome"
-             Title="BusinessHome"
              BackgroundColor="#F4FBF2"
              WidthRequest="1366"
              HeightRequest="768">
 
-    <Grid ColumnDefinitions = " 250 , auto ">
+    <Grid ColumnDefinitions = " 250 , * ">
 
-        <pagesBusiness:BusinessFlyout Grid.Column="0" />
-        
+        <ContentView Grid.Column="0" WidthRequest="250" HeightRequest="768">
+            <ContentView.Shadow>
+                <Shadow Brush="Black" Offset="0.5, 0.5" Radius="5" Opacity="0.5"/>
+            </ContentView.Shadow>
+
+            <pagesBusiness:BusinessFlyout/>
+        </ContentView>
+
+        <Grid Grid.Column="1" RowDefinitions="auto,*,auto">
+
+            <StackLayout Grid.Row="0" Margin="24,24,24,0">
+
+                <Label Style="{x:StaticResource GlobalTitleLabel}" Text="Nombre del establecimiento" />
+
+                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="¡Que tengas un excelente día y disfruta de tu experiencia con GrassGol!" />
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="1" Margin="24,0,24,0" VerticalOptions="Center" Spacing="65">
+                
+                <BoxView HeightRequest="1" WidthRequest="900" Color="{x:StaticResource PrimaryColor}" />
+
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="80">
+                    
+                    <ContentView WidthRequest="200" HeightRequest="300">
+                        <ContentView.Shadow>
+                            <Shadow Brush="Black" Offset="7,7" Radius="10" Opacity="0.2"/>
+                        </ContentView.Shadow>
+
+                        <Frame BackgroundColor="#F4FBF2" CornerRadius="20"
+                               BorderColor="{x:StaticResource PrimaryColor}">
+
+                            <StackLayout Spacing="25">
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Reservas" 
+                                       FontAttributes="Bold" FontSize="20" />
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Tienes"  HorizontalOptions="Center"/>
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="0" HorizontalOptions="Center" 
+                                       FontSize="50"/>
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Activas en tu establecimiento." 
+                                       HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                        </Frame>
+                    </ContentView>
+
+
+                    <ContentView WidthRequest="200" HeightRequest="300">
+                        <ContentView.Shadow>
+                            <Shadow Brush="Black" Offset="7,7" Radius="10" Opacity="0.2"/>
+                        </ContentView.Shadow>
+
+                        <Frame BackgroundColor="#F4FBF2" CornerRadius="20"
+                               BorderColor="{x:StaticResource PrimaryColor}">
+
+                            <StackLayout Spacing="25">
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Canchas" 
+                                       FontAttributes="Bold" FontSize="20" />
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Tienes"  HorizontalOptions="Center"/>
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="0" HorizontalOptions="Center" 
+                                       FontSize="50"/>
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Creadas en tu establecimiento." 
+                                       HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                        </Frame>
+                    </ContentView>
+
+                    <ContentView WidthRequest="200" HeightRequest="300">
+                        <ContentView.Shadow>
+                            <Shadow Brush="Black" Offset="7,7" Radius="10" Opacity="0.2"/>
+                        </ContentView.Shadow>
+
+                        <Frame BackgroundColor="#F4FBF2" CornerRadius="20" 
+                               BorderColor="{x:StaticResource PrimaryColor}">
+
+                            <StackLayout Spacing="25">
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Facturas" 
+                                       FontAttributes="Bold" FontSize="20" />
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Tienes"  HorizontalOptions="Center"/>
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="0" HorizontalOptions="Center" 
+                                       FontSize="50"/>
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="En tu establecimiento." 
+                                       HorizontalOptions="Center"/>
+
+                            </StackLayout>
+                        </Frame>
+                    </ContentView>
+
+                    <ContentView WidthRequest="200" HeightRequest="300">
+                        <ContentView.Shadow>
+                            <Shadow Brush="Black" Offset="7,7" Radius="10" Opacity="0.2"/>
+                        </ContentView.Shadow>
+
+                        <Frame BackgroundColor="#F4FBF2" CornerRadius="20" 
+                               BorderColor="{x:StaticResource PrimaryColor}">
+
+                            <StackLayout Spacing="25">
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Empleados" 
+                                       FontAttributes="Bold" FontSize="20" />
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Tienes"  HorizontalOptions="Center"/>
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="0" HorizontalOptions="Center" 
+                                       FontSize="50"/>
+
+                                <Label Style="{x:StaticResource GlobalInfoLabel}" Text="Empleado en tu establecimiento." 
+                                       HorizontalOptions="Center"/>
+
+                            </StackLayout>
+
+                        </Frame>
+                    </ContentView>
+                </HorizontalStackLayout>
+
+                <BoxView HeightRequest="1" WidthRequest="900" Color="{x:StaticResource PrimaryColor}" />
+            </StackLayout>
+
+            <HorizontalStackLayout Grid.Row="2" Margin="24,0,24,24" VerticalOptions="Center" HorizontalOptions="Center" Spacing="60">
+                
+                <ContentView WidthRequest="340" HeightRequest="150">
+                    <ContentView.Shadow>
+                        <Shadow Brush="Black" Offset="7,7" Radius="10" Opacity="0.2"/>
+                    </ContentView.Shadow>
+
+                    <Frame BackgroundColor="#F4FBF2" CornerRadius="20"
+                           BorderColor="#50505033">
+
+                        <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Style="{x:StaticResource GlobalInfoLabel}" WidthRequest="195" HeightRequest="110" LineBreakMode="CharacterWrap">
+                                <Label.FormattedText >
+                                    <FormattedString >
+                                        <Span Text="Si necesitas ayuda o tienes algún problema con la aplicación GrassGol, nuestro equipo de soporte está aquí para asistirte. Envía una solicitud de soporte y recibir asistencia personalizada." 
+                                              TextColor="{x:StaticResource TextColorLight}" />
+
+                                        <Span Text="&#10;&#10;Correo: " FontAttributes="Bold" TextColor="{x:StaticResource TextColorLight}"/>
+                                        <Span Text="soporteaplicacion@grassgol.com" TextColor="{x:StaticResource TextColorLight}"/>
+
+                                        <Span Text="&#10;Teléfono: " FontAttributes="Bold" TextColor="{x:StaticResource TextColorLight}"/>
+                                        <Span Text="0180005050" TextColor="{x:StaticResource TextColorLight}"/>
+
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </HorizontalStackLayout>
+
+                    </Frame>
+                </ContentView>
+
+                <ContentView WidthRequest="340" HeightRequest="150">
+                    <ContentView.Shadow>
+                        <Shadow Brush="Black" Offset="7,7" Radius="10" Opacity="0.2"/>
+                    </ContentView.Shadow>
+
+                    <Frame BackgroundColor="#F4FBF2" CornerRadius="20" 
+                           BorderColor="#50505033">
+
+
+                    </Frame>
+                </ContentView>
+            </HorizontalStackLayout>
+        </Grid>
+
+
     </Grid>
 </ContentPage>
