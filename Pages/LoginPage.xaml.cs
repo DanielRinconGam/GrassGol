@@ -1,5 +1,4 @@
 namespace GrassGol.Pages;
-
 using GrassGol.Connections;
 
 public partial class LoginPage : ContentPage
